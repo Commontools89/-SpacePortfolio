@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manu Malempati's Space Portfolio</title>
+  <link rel="stylesheet" href="/style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+</head>
+<body>
+  <div id="loading-text">Loading...</div>
+  <div id="sketch-holder"></div>
+  <div id="landing-page">
+    <h1>Welcome to My Space</h1>
+  </div>
+  <div id="portfolio" class="hidden">
+    <nav>
+      <ul>
+        <li><a href="#" data-component="about">About</a></li>
+        <li><a href="#" data-component="projects">Projects</a></li>
+        <li><a href="#" data-component="contact">Contact</a></li>
+        <li><a href="#" data-component="blog">Blog</a></li>
+      </ul>
+    </nav>
+    <div id="about" class="component active">
+      <h2>About Me</h2>
+      <p>I'm a passionate web developer with a love for creating beautiful and functional websites. When I'm not coding, you can find me stargazing and dreaming about the cosmos.</p>
+    </div>
+    <div id="projects" class="component">
+      <h2>My Projects</h2>
+      <ul>
+        <li>Space Weather App</li>
+        <li>Galactic Social Network</li>
+        <li>Asteroid Tracker</li>
+      </ul>
+    </div>
+    <div id="contact" class="component">
+      <h2>Contact Me</h2>
+      <p>Email: manu.malempati@example.com</p>
+      <p>GitHub: github.com/manumalempati</p>
+      <p>LinkedIn: linkedin.com/in/manumalempati</p>
+    </div>
+    <div id="blog" class="component">
+      <h2>Blog</h2>
+      <article class="blog-post">
+        <h3>The Wonders of Space Exploration</h3>
+        <p class="post-meta">Posted on May 15, 2023</p>
+        <p>In this post, we'll explore the latest developments in space exploration and how they're shaping our understanding of the universe...</p>
+      </article>
+      <article class="blog-post">
+        <h3>Web Development Trends for 2023</h3>
+        <p class="post-meta">Posted on April 30, 2023</p>
+        <p>Discover the hottest web development trends that are revolutionizing the industry this year...</p>
+      </article>
+    </div>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
